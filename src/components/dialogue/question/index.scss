@@ -1,0 +1,242 @@
+.question-title {
+    margin-bottom: 15px !important;
+    text-align: left;
+}
+
+.miniTag {
+    margin-right: 6px;
+}
+
+.browse_count {
+    color: #999;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.question-title h1 {
+    margin: 0 0 10px 0;
+    font-size: 30px;
+}
+
+.question-title ul {
+    margin-left: 0px !important;
+    margin-bottom: 0px !important;
+    padding-left: 0;
+    list-style: none;
+    margin-top: 0;
+    display: inline-block;
+}
+
+.question-title ul li {
+    display: inline-block;
+}
+
+.vote {
+    position: relative;
+    width: 40px;
+    height: 56px;
+    line-height: 56px;
+    font-size: 16px;
+    color: #212121;
+    font-weight: 500;
+    text-align: center;
+    padding: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    display: inline-block;
+    margin-bottom: 0;
+    vertical-align: middle;
+    cursor: pointer;
+    white-space: nowrap;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+    box-sizing: border-box;
+}
+
+.vote button {
+    position: absolute;
+    left: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 4px;
+    background: transparent;
+}
+
+.vote .like {
+    top: 0;
+}
+
+.vote .like i {
+    font-size: 21px;
+}
+
+.vote .hate {
+    bottom: 0;
+}
+
+.vote .hate i {
+    font-size: 21px;
+    line-height: 0;
+}
+
+.accept {
+    margin-top: 15px !important;
+    width: 40px;
+    height: 45px;
+    text-align: center;
+    display: inline-block;
+    color: #009a61;
+}
+
+.accept i {
+    font-size: 24px;
+}
+
+.accept span {
+    font-size: 13px;
+}
+
+.question-body {
+    line-height: 1.6;
+    margin-bottom: 15px;
+    word-wrap: break-word;
+    text-align: left;
+    font-size: 14px;
+}
+
+.ql-container {
+    border: none !important;
+}
+
+.ql-editor {
+    padding: 0 !important;
+}
+
+.question-operate {
+    text-align: left;
+}
+
+.question-operate ul {
+    margin-left: 0px !important;
+    margin-bottom: 0px !important;
+    padding-left: 0;
+    list-style: none;
+    margin-top: 0;
+}
+
+.question-operate ul li {
+    display: inline-block;
+    padding-right: 10px !important;
+    padding-left: 0px !important;
+}
+
+.question-operate ul li button {
+    outline: none;
+    cursor: pointer;
+}
+
+button.watch {
+    color: #fff;
+    background-color: #5cb85c;
+    outline: 0;
+    padding: 1px 5px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px;
+    border-color: #4cae4c;
+}
+
+button.watch span {
+    opacity: .3;
+}
+
+button.shoucang {
+    padding: 1px 5px;
+    font-size: 12px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-color: #ccc;
+    border-radius: 3px;
+}
+
+.question-operate ul li button .iconfont {
+    font-family: 'iconfont' !important;
+}
+
+.question-operate ul li button i {
+    font-size: 14px;
+}
+
+.question-user {
+    display: flex;
+    height: 40px;
+}
+
+.question-avatar {
+    padding-right: 10px !important;
+    text-align: right;
+    line-height: 32px;
+
+}
+
+.question-name {
+    margin-bottom: 5px !important;
+    line-height: 1;
+}
+
+.question-name span {
+    color: #009a61;
+    font-size: 14px;
+    max-width: 8em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 2px;
+    line-height: 16px;
+    font-weight: 500;
+}
+
+.question-name i,
+.question-name label {
+    color: #BF7158;
+    font-size: 12px;
+}
+
+.question-time {
+    font-size: 13px;
+    color: #999;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 2px;
+    line-height: 16px;
+}
+
+.comment {
+    margin-top: 10px;
+    font-size: 13px;
+    color: #666;
+    padding: 10px;
+    background-color: #F6F6F6;
+    border-radius: 2px;
+}
+
+.comment-editor {
+    text-align: left;
+    width: 825px;
+    margin-bottom: 15px;
+}
+
+.comment-editor h4 {
+    display: inline-block;
+}
+
+.submitBtn {
+    float: right;
+    margin-top: 15px;
+}

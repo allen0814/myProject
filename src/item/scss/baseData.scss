@@ -1,0 +1,57 @@
+.cellClass {
+    padding: 3px 0 !important;
+}
+
+.cellClass div {
+    text-align: center;
+}
+
+.headerCellClass div {
+    text-align: center;
+}
+
+.el-radio.is-bordered {
+    border: 1px solid #969aa294;
+    width: 49%;
+    margin-right: 0;
+}
+
+.distinct-component-ct .el-select {
+    width: 49%;
+}
+
+.el-radio .el-radio__input {
+    float: right;
+}
+
+.el-dialog__body {
+    padding: 0px 20px !important;
+}
+
+.el-dialog__footer {
+    padding: 0px 20px 10px;
+}
+
+.el-form-item {
+    margin-bottom: 18px;
+}
+
+.el-button.el-button--text.el-button--small {
+    padding: 0;
+}
+
+.searchFormPlace.distinct-component-ct .el-select {
+    width: 48% !important;
+}
+
+.el-input--mini .el-input__inner{
+    padding: 0 3px;
+}
+
+.el-date-editor.el-input.el-input--mini .el-input__inner{
+    padding: 0 3px 0 32px !important;
+}
+
+.distinct-component-ct .el-select.el-select--mini {
+    width: 45%;
+}

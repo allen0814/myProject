@@ -1,0 +1,82 @@
+.qa-rank {
+    float: left;
+    font-size: 16px;
+    text-align: center;
+    line-height: 1.2;
+    color: #666;
+}
+
+.qa-rank small {
+    display: block;
+    font-size: 12px;
+}
+
+.qa-rank .vote {
+    display: inline-block;
+    padding-top: 3px;
+    width: 45px;
+    height: 42px;
+    color: #757575;
+    border-radius: 3px;
+}
+
+.qa-rank .answer {
+    margin: 0 6px;
+    display: inline-block;
+    padding-top: 3px;
+    width: 45px;
+    height: 42px;
+    border-radius: 3px;
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+    margin: 0 6px;
+
+    color: #AD3A37;
+}
+
+.qa-rank .answered {
+    color: #017E66;
+    background: rgba(1, 126, 102, 0.08);
+    border: 1px solid rgba(1, 126, 102, 0.16);
+}
+
+.qa-rank .solved {
+    background-color: #009A61;
+    color: #fff;
+}
+
+.qa-rank .view {
+    display: inline-block;
+    padding-top: 3px;
+    width: 45px;
+    height: 42px;
+    border-radius: 3px;
+    color: #999;
+}
+
+.qa-rank .viewsword100to999 {
+    color: #b17e53;
+}
+
+.qa-rank .viewsword999to9999 {
+    color: #e42626
+}
+
+.author {
+    margin-bottom: 5px;
+    color: #999;
+    font-size: 13px;
+    margin-top: 0;
+    padding-left: 0;
+}
+
+.title {
+    display: inline-block;
+    margin: 0 10px 0 0;
+    font-size: 16px;
+    height: 28px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #333;
+    cursor: pointer;
+}
